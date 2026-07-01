@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: geoh5py
-  version: "0.12.2"
+  version: "0.13.0"
   python_min: '3.10'
   module_name: ${{ name|lower|replace("-", "_") }}
 
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://github.com/MiraGeoscience/${{ name }}/archive/v${{ version }}.tar.gz
-  sha256: ddf9054f1ff55d9834c0510dfa158e11441aa3ad05a149591379c8054f7f0cca
+  sha256: 09e8bcd339b36f48a76e2823b8dd36197e3b9e0e6d77ce4076a279d93adaa567
 
 build:
   number: 0
